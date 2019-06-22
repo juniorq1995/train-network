@@ -113,7 +113,7 @@ public class Trains {
 	    }
 	    // Put tuple pair into the priority queue
 	     Queue unvisited_queue = new Queue(g.get_vertices(),g.size());
-	     while(unvisited_queue.get_length() > 0) {
+	     while(unvisited_queue.get_length() > 1) {
 	    	 // Pops a vertex with the smallest distance 
 	    	 Node uv = unvisited_queue.pop();
 	    	 Vertex current = uv.get_vert();
