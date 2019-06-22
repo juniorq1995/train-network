@@ -24,9 +24,7 @@ public class Trains {
 				// Check edge
 				if(w.get_id().equals(path[i+1])) {
 					distance = distance + vert.get_weight(w);
-					if (i != path.length-1 && i != 0) {
-						distance = distance + 2;
-					}
+					
 					containsNeighbor = true;
 					break;
 				}
@@ -192,7 +190,7 @@ public class Trains {
 		}
 		return null;
 	}
-
+/*
 	public static void main(String[] args) {
 		Scanner reader = new Scanner(System.in);  // Reading from System.in
 		System.out.print("Enter a file name: ");
@@ -266,4 +264,5 @@ public class Trains {
 	    }
 	    System.out.println("Output #10: " + distance); // Should be 7
     }
+    */
 }
