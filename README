@@ -1,0 +1,5 @@
+This project is a simple model of a train network complete with functionality for:
+  - Determining the most efficient way to get between two points (via Dijkstra's Algorithm)
+  - Finding shortest route with desired stop locations
+  - Determining the number of paths between two stations
+  - All of these are done with maximum efficiency and code coverage!
